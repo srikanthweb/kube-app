@@ -19,7 +19,7 @@ spec:
           image: vprofile/vprofileapp:V1
           ports:
             - name: vproapp-port
-                containerPort: 8080
+                containerPort:8080
       initContainers:
         - name: init-mydb
           image: busybox
